@@ -1,6 +1,11 @@
 # QBS
-Quantum Bloch Solver for arbitrary magnetic fields.
+This project is the code for a two-level quantum Bloch solver for arbitrary magnetic fields.
 
-Mainly for use in the IU RF flipper paper, but most of the code can be ported into a new project that can look at at any magnetic field.
+Mainly for use in the 2023 Indiana University RF flipper paper, but most of the code can be ported into a new project that can look at at the neutron's response to any magnetic field.
 
-Right now the simulation is on;y in 1D, but in principle, it can be extended into a ray-tracing program.
+This version of the QBS is only 1D.
+
+Things to add:
+1. File for analyzing orbital angular momentum
+2. 2D and 3D ray-tracing options
+3. Expand from Bloch solver to solving the Schrodinger equation (only 2D is probably feasible)
